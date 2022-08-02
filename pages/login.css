@@ -1,0 +1,101 @@
+:root{
+    --primarycolor:#ad9cf;
+    --blackcolor:rgba(46,46,71);
+    --secondarycolor:rgba(196,169,230);
+    --border-color: rgba(46,46,71); 
+    --inputcolor:rgba(241,241,241);
+    --successcolor:rgba(205,237,207);
+    --failurecolor:rgba(255,0,0);
+  }
+
+*{
+    align-items: center;
+}
+
+body{
+    background-image: url(liloo.jpg);
+    align-items: center;
+      
+       font-family: 'Roboto',sans-serif;
+}
+.login-box{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width:360px;
+    height:620px;
+    background-color:black;
+    border-radius: 3px;
+}
+  h1{
+    color:#fff;
+    
+    padding-top: 15px;
+}
+form{
+    
+    width:300px;
+    margin-left: 20px;
+}
+form label{
+    color: #fff;
+    text-align: center;
+    display:flex;
+    margin-top: 20px;
+    font-size: 18px;
+}
+form input{
+    text-align: center;
+    width:100%;
+    padding:6px;
+    border:none
+    border:1px solid gray;
+    border-radius:6px;
+    outline:none;
+}
+input{
+    text-align: center;
+    width:320px;
+    height:35px;
+    margin-top:20px;
+    border:20px;
+    background-color:#fff;
+}
+input submit{
+    color: orange;
+}
+.login-box form a{
+    color: yellow;
+}
+.row span .registerlink{
+    color:#fff;
+}
+.row .registerlink a{
+    color:yellow;
+}
+ .row input  #submitbtn{
+color: orange;
+}
+p{
+    color: #fff;
+}
+.dashboard{
+    margin-top: 20%;
+     text-align:center;    
+}
+.dashboard h1{
+    font-size: 10rem;
+    color:yellow;
+    margin: 1rem 0;
+}
+.dashboard .logoutbtn a{
+    cursor: pointer;
+    color:white;
+    font-size: 80px;
+}
+,.dashboard .logoutbtn a:hover{
+    color: red;
+}
+.pass{
+    color:white;
+}
